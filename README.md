@@ -26,7 +26,7 @@ When you restart MATLAB the functions should be available.
 -[ndfRead](#
 
 ## Authors
-- [@MJSchneider](https://github.com/MJSchneider)
+- Copyright (c) 2021, [Michael Schneider](https://github.com/MJSchneider)
 
 
 

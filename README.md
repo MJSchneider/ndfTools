@@ -9,23 +9,48 @@
 - [TODO](./TODO.md)
 - [Authors](#authors)
 
-## Installation
+## Installation <a name="installation"></a>
 First clone or install the repository into your desired directory.
 ```
 git clone https://github.com/MJSchneider/ndfTools.git
 ```
-Then add the following line to your startup.m file, replacing **ndfTools_Path** with the path to your choosen installation directory
+Then add the following line to your startup.m file, replacing **ndfTools_Path** with the path to your choosen installation directory.
 
 ```
 addpath(genpath(ndfTools_Path));
 ```
-When you restart MATLAB the functions should be available.
+When you restart MATLAB the functions should now be available.
 
-## Usage
+## Usage <a name="usage"></a>
 ### Functions
--[ndfRead](#
+- [ndfRead](#ndfRead)
+- [ndfExtract](#ndfExtract)
+- [ndfReconstruct](#ndfReconstruct)
 
-## Authors
+### Documentation 
+
+#### ndfRead <a name="ndfRead"></a>
+Opens an ndf file as a struct.
+```
+ndf = ndfRead('filepath')
+```
+```
+ndf = 
+
+struct with fields:
+
+      channel: [1×n double]
+        value: [1×n double]
+    timestamp: [1×n double]
+```
+
+#### ndfExtract <a name="ndfExtract"></a>
+Pulls all channels from the ndf struct and creates a new struct were each field is a channel
+
+#### ndfReconstruct <a name="ndfReconstruct"></a>
+Simple reconstruction method to eliminate [bad messages](https://www.opensourceinstruments.com/Electronics/A3017/SCT.html#Bad%20Messages) by looking for large/inappropriate value changes. 
+
+## Authors <a name="authors"></a>
 - Copyright (c) 2021, [Michael Schneider](https://github.com/MJSchneider)
 
 

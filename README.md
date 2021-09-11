@@ -26,11 +26,12 @@ When you restart MATLAB the functions should now be available.
 - [ndfRead](#ndfRead)
 - [ndfExtract](#ndfExtract)
 - [ndfReconstruct](#ndfReconstruct)
+- [ndfWrite](#ndfWrite)
 
 ### Documentation 
 
 #### ndfRead <a name="ndfRead"></a>
-Opens an ndf file as a struct.
+Opens an ndf archive as a struct.
 ```
 ndf = ndfRead('filepath')
 ```
@@ -49,6 +50,9 @@ Pulls all channels from the ndf struct and creates a new struct were each field 
 
 #### ndfReconstruct <a name="ndfReconstruct"></a>
 Simple reconstruction method to eliminate [bad messages](https://www.opensourceinstruments.com/Electronics/A3017/SCT.html#Bad%20Messages) by looking for large/inappropriate value changes. 
+
+#### ndfWrite <a name="ndfwrite"></a>
+Writes a string to the metadata section of the ndf arcihve
 
 ## Authors <a name="authors"></a>
 - Copyright (c) 2021, [Michael Schneider](https://github.com/MJSchneider)

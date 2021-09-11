@@ -6,7 +6,7 @@
 ## 📝 Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [TODO](../TODO.md)
+- [TODO](./TODO.md)
 - [Authors](#authors)
 
 ## Installation

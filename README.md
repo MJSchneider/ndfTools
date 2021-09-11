@@ -1,5 +1,5 @@
 <h3 align="center">ndfTools</h3>
-<p align="center"> A set of MATLAB tools for working with the ndf file type used by <a href="https://www.opensourceinstruments.com/">Open Source Instruments</a>.
+<p align="center"> A set of MATLAB functions for working with the ndf archive used by <a href="https://www.opensourceinstruments.com/">Open Source Instruments</a>.
     <br> 
 </p>
 

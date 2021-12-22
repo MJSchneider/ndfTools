@@ -24,9 +24,11 @@ When you restart MATLAB the functions should now be available.
 ## Usage <a name="usage"></a>
 ### Functions
 - [ndfRead](#ndfRead)
+<!--
 - [ndfExtract](#ndfExtract)
 - [ndfReconstruct](#ndfReconstruct)
 - [ndfWrite](#ndfWrite)
+--->
 
 ### Documentation 
 
@@ -44,7 +46,7 @@ struct with fields:
         value: [1×n double]
     timestamp: [1×n double]
 ```
-
+<!--
 #### ndfExtract <a name="ndfExtract"></a>
 Pulls all channels from the ndf struct and creates a new struct were each field is a channel
 
@@ -53,7 +55,7 @@ Simple reconstruction method to eliminate [bad messages](https://www.opensourcei
 
 #### ndfWrite <a name="ndfwrite"></a>
 Writes a string to the metadata section of the ndf arcihve
-
+--->
 ## Authors <a name="authors"></a>
 - Copyright (c) 2021, [Michael Schneider](https://github.com/MJSchneider)
 

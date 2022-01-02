@@ -10,4 +10,4 @@
 - [ ] Improve the documentation
 
 ### Notes
-I currently do not have access to a MATLAB license. If anyone indicates interest I will see what I can do about implementing the additional funcitons.
+I currently do not have access to a MATLAB license. If anyone indicates interest I will see what I can do about implementing the additional functions.
